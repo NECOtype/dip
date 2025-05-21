@@ -10,3 +10,4 @@ After manifests have been committed and pushed, run the following:
 scoop bucket add dip https://github.com/NECOtype/dip
 scoop install dip/<manifestname>
 ```
+
