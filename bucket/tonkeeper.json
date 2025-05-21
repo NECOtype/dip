@@ -3,29 +3,14 @@
     "description": "🞋 An open-source web browser based on Firefox.",
     "homepage": "https://zen-browser.app",
     "license": "Apache-2.0",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/tonkeeper/tonkeeper-web/releases/tag/v4.0.1/Tonkeeper-4.0.1.Setup.exe#/dl.7z",
-        }
-    },
-    "extract_dir": "core",
-    "bin": [
-        [
-            "tonkeeper.exe",
-            "tonkeeper"
-        ]
-    ],
+    "url": "https://github.com/tonkeeper/tonkeeper-web/releases/download/v4.0.1/Tonkeeper-win32-x64-4.0.1.zip",
     "shortcuts": [
         [
-            "tonkeeper.exe",
+            "Tonkeeper.exe",
             "Tonkeeper"
         ]    ],
     "checkver": "github",
     "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/tonkeeper/tonkeeper-web/releases/tag/v$version/Tonkeeper-$version.Setup.exe#/dl.7z"
-            }
-        }
+        "url": "https://github.com/tonkeeper/tonkeeper-web/releases/download/v$version/Tonkeeper-win32-x64-$version.zip"
     }
 }
