@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/865d0209-f93b-48e1-aa90-abf53df11154" alt="neco-image" align="right"/>
+<img src="https://github.com/user-attachments/assets/d6c90d13-9f63-41e8-a768-9833e50e3b84" alt="neco-image" align="right"/>
 
 # dip - a smol Scoop bucket
 
