@@ -33,13 +33,18 @@
     "shortcuts": [
         [
             "zen.exe",
-            "Zen Browser"
+            "Zen"
         ],
         [
             "zen.exe",
-            "Zen Browser Profile Manger",
+            "Zen Profile Manger",
             "-P"
+        ],
+        [
+            "private_browsing.exe",
+            "Zen Private Browsing"
         ]
+
     ],
     "persist": [
         "distribution",
