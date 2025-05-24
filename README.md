@@ -5,12 +5,13 @@ This repo contains some of the tools I use and are not available in the official
 
 ## Installation
 
-After installing `Scoop` from Scoop.sh, add this bucket by typing:
+After installing [Scoop](https://scoop.sh), add this bucket by typing:
 
 ```pwsh
 scoop bucket add dip https://github.com/NECOtype/dip
 
 Then you can install the tools in my bucket using:
+
 ```
 ```pwsh
 scoop install dip/<manifestname>
