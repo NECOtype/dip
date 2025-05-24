@@ -1,10 +1,16 @@
 <img src="https://github.com/user-attachments/assets/854a963e-1ccd-4084-b8c6-b03dc2adebf3" alt="neco-image" align="left" />
 
 # dip - a smol Scoop bucket
+This repo contains some of the tools I use and are not available in the official Scoop buckets.
 
-After manifests have been committed and pushed, run the following:
+## Installation
+
+After installing `Scoop` from Scoop.sh, add this bucket by typing:
+
 ```pwsh
 scoop bucket add dip https://github.com/NECOtype/dip
+
+Then you can install the tools in my bucket using:
 ```
 ```pwsh
 scoop install dip/<manifestname>
