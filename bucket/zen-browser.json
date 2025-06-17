@@ -1,5 +1,5 @@
 {
-    "version": "1.13.1b",
+    "version": "1.13.2b",
     "description": "𖦹  An open-source web browser based on Firefox.",
     "homepage": "https://zen-browser.app",
     "license": "MPL-2.0",
@@ -11,8 +11,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zen-browser/desktop/releases/download/1.13.1b/zen.installer.exe#/dl.7z",
-            "hash": "e5cbcd1234672b1fa7ba54b9de60717e9ee989c5305d5a56f70068abef4f3e71"
+            "url": "https://github.com/zen-browser/desktop/releases/download/1.13.2b/zen.installer.exe#/dl.7z",
+            "hash": "4e1d28a1cd16018af5520b2d957eafe05cb14673de0e47cc4236346d1c2f2c03"
         }
     },
     "extract_dir": "core",
