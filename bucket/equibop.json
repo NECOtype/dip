@@ -13,7 +13,7 @@
       "hash": "a56c34b412e95f901a67a94b942d294366cab456aec95acf14493c3f06024a01"
     }
   },
-  "bin": "Equibop.exe",
+  "bin": "Equibop-Setup.exe",
   "persist": "Data",
   "shortcuts": [
     [
