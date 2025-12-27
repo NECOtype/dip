@@ -1,16 +1,16 @@
 {
-    "version": "3.1.4",
+    "version": "3.1.5",
     "description": "Equibop is a custom Discord App aiming to give you better performance and improve linux support",
     "homepage": "https://github.com/Equicord/Equibop",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Equicord/Equibop/releases/download/v3.1.4/Equibop-3.1.4-win.zip",
-            "hash": "239416f42b1362206760a5416496a52befb969b60b96eb9513af867c973e6e45"
+            "url": "https://github.com/Equicord/Equibop/releases/download/v3.1.5/Equibop-3.1.5-win.zip",
+            "hash": "b90ad3db83302ff07b07870f6fa5c08963578b03fbdddb119e65191c0e62ff7d"
         },
         "arm64": {
-            "url": "https://github.com/Equicord/Equibop/releases/download/v3.1.4/Equibop-3.1.4-arm64-win.zip",
-            "hash": "259040ac3a0407d2dd4db30a179ce563decf460b59d0d17fc464093c6f5e14f3"
+            "url": "https://github.com/Equicord/Equibop/releases/download/v3.1.5/Equibop-3.1.5-arm64-win.zip",
+            "hash": "fd336eb7cdafbcd87013fc293f14df41051400bed2d681f4673b17f5b0214634"
         }
     },
     "bin": "Equibop.exe",
