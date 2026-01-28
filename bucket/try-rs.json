@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/tassiovirginio/try-rs/releases/download/v0.1.53/try-rs-windows-x86_64.exe#/try-rs.exe",
-            "hash": "2a1b8d6cb15f13fd4c07204ff81b5b72fc7420e5b6c749b5cc3ba98e7f1bbc48"
+            "hash": "89511a94672654b8f9d406a20c7baf3c07d2749dfa7407e7bb9ba0113a3fc7b9"
         }
     },
     "bin": "try-rs.exe",
