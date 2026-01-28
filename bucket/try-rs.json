@@ -1,0 +1,23 @@
+{
+    "version": "0.1.53",
+    "description": "A blazing fast, Rust-based workspace manager for your temporary experiments.",
+    "homepage": "https://try-rs.org",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/tassiovirginio/try-rs/releases/download/v0.1.53/try-rs-windows-x86_64.exe#/try-rs.exe",
+            "hash": "2a1b8d6cb15f13fd4c07204ff81b5b72fc7420e5b6c749b5cc3ba98e7f1bbc48"
+        }
+    },
+    "bin": "try-rs.exe",
+    "checkver": {
+        "github": "https://github.com/tassiovirginio/try-rs"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/tassiovirginio/try-rs/releases/download/v$version/try-rs-windows-x86_64.exe#/try-rs.exe"
+            }
+        }
+    }
+}
