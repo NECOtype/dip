@@ -12,7 +12,7 @@
       "hash": "89511a94672654b8f9d406a20c7baf3c07d2749dfa7407e7bb9ba0113a3fc7b9"
     }
   },
-  "bin": "try-rs.exe",
+  "bin": "try.exe",
   "checkver": {
     "github": "https://github.com/tassiovirginio/try-rs"
   },
