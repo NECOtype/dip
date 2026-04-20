@@ -1,0 +1,26 @@
+{
+    "version": "0.10.3",
+    "description": "Browse the Fediverse",
+    "homepage": "https://github.com/GeopJr/Tuba",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GeopJr/Tuba/releases/download/v0.10.3/Tuba.Setup.exe",
+            "hash": "510a6c0bb4a67d054b1d3a7cc9de94f83fab1c1a560a829c51354babb42d21e0"
+        }
+    },
+    "shortcuts": [
+        [
+            "Tuba.Setup.exe",
+            "Tuba"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/GeopJr/Tuba/releases/download/v$version/Tuba.Setup.exe"
+            }
+        }
+    }
+}

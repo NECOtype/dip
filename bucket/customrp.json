@@ -13,7 +13,9 @@
             "CustomRP"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://github.com/maximmax42/Discord-CustomRP"
+    },
     "autoupdate": {
         "url": "https://github.com/maximmax42/Discord-CustomRP/releases/download/$version/CustomRP.$version.zip"
     }
