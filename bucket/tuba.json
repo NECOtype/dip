@@ -9,9 +9,18 @@
             "hash": "510a6c0bb4a67d054b1d3a7cc9de94f83fab1c1a560a829c51354babb42d21e0"
         }
     },
+    "installer": {
+        "script": [
+            "Start-Process -Wait \"$dir\\$fname\" -ArgumentList @('/S', \"/D=$dir\") -Verb RunAs | Out-Null",
+            "Remove-Item \"$dir\\$fname\""
+        ]
+    },
+    "uninstaller": {
+        "script": "Start-Process \"$dir\\uninstall.exe\" -ArgumentList '/S' -Wait -Verb RunAs | Out-Null"
+    },
     "shortcuts": [
         [
-            "Tuba.Setup.exe",
+            "bin\\dev.geopjr.Tuba.exe",
             "Tuba"
         ]
     ],
