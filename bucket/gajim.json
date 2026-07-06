@@ -2,7 +2,10 @@
     "version": "2.4.7.1",
     "description": "A fully-featured XMPP client (Portable version).",
     "homepage": "https://gajim.org/",
-    "license": "GPL-3.0-only",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://dev.gajim.org/gajim/gajim/-/blob/master/COPYING"
+    },
     "architecture": {
         "64bit": {
             "url": "https://gajim.org/downloads/2.4/Gajim-Portable-2.4.7.1-64bit.exe#/dl.7z",
